@@ -7,8 +7,28 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Top Headlines</h1>
-    <div id="news"></div>
+    <header>
+        <div id="header-text">
+            <h1>Newsy</h1>
+            <h3 id="header-h3">Welcome to the Newsy App, Your source for the News!</h3>
+         </div>
+        <div id="searchContainer">
+            <input type="text" name="searchBar" id="searchBar">
+            <button type="submit" id="searchBtn">Go!</button>
+        </div>
+    </header>
+    <div id="categories-Nav">
+        <button class="categoryBtn" id="top-headlines">Top Headlines</button>
+        <button class="categoryBtn" id="business">Business</button>
+        <button class="categoryBtn" id="sports">Sports</button>
+        <button class="categoryBtn" id="entertainment">Entertainment</button>
+        <button class="categoryBtn" id="general">General</button>
+        <button class="categoryBtn" id="health">Heath</button>
+        <button class="categoryBtn" id="science">Science</button>
+        <button class="categoryBtn" id="technology">Technology</button>
+    </div>
+    <section id="articlesContainer"></section>
+    
 
 
     <script src="scripts.js" type="module"></script>
